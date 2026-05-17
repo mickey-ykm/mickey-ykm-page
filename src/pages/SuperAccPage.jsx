@@ -90,7 +90,6 @@ export default function SuperAccPage() {
               className="absolute right-0 w-auto object-cover object-left opacity-80"
               style={{ right: '5%', top: '5%', bottom: '5%', height: '90%' }}
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-stone-900 via-stone-900/85 to-stone-900/20" />
           </div>
           <div className="relative max-w-4xl mx-auto px-6 py-24">
             <Link to="/work" className="text-stone-500 text-sm hover:text-stone-300 transition mb-8 inline-block">
@@ -174,11 +173,11 @@ export default function SuperAccPage() {
             <h2 className="font-display text-3xl md:text-4xl text-stone-900 mb-16">Three Core Modules</h2>
             <div className="space-y-16">
               {modules.map((mod) => (
-                <div key={mod.number} className="border border-stone-200 rounded-2xl p-6 bg-white">
-                  <div className="flex items-center gap-4 mb-4">
-                    <img src={mod.icon} alt={mod.title} className="w-full h-48 object-contain" />
+                <div key={mod.number} className="grid md:grid-cols-[200px_1fr] gap-8 items-start">
+                  <div className="flex flex-col items-center gap-3">
+                    <img src={mod.icon} alt={mod.title} className="w-full h-40 object-contain" />
+                    <div className="font-display text-4xl text-stone-200 leading-none">{mod.number}</div>
                   </div>
-                  <div className="font-display text-3xl text-stone-200 mb-2">{mod.number}</div>
                   <div>
                     <h3 className="text-xl font-semibold text-stone-900 mb-1">{mod.title}</h3>
                     <p className="text-xs text-indigo-500 font-medium mb-4">Client: {mod.client}</p>

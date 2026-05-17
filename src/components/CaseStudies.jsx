@@ -40,6 +40,13 @@ export default function CaseStudies() {
       tags: ["GenAI", "Mobile", "Product"]
     },
     {
+      title: "Taikoo Place 3-in-1 Digital Platform",
+      company: "Swire Group",
+      year: "2018",
+      description: "Led a digital transformation project unifying a website, mobile app, and in-venue kiosk under a single Sitecore CMS. Designed data synchronisation and content structure to ensure consistency across all three touchpoints, reducing content management overhead and improving operational reliability.",
+      tags: ["Platform", "Mobile", "Product"]
+    },
+    {
       title: "Altive Asset Management Platform",
       company: "Investment Platform",
       year: "2021",
