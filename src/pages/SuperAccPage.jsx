@@ -213,7 +213,7 @@ export default function SuperAccPage() {
               {techPillars.map((t, i) => (
                 <div key={i} className="bg-stone-800/50 border border-stone-700/50 rounded-2xl p-6">
                   {t.image && (
-                    <img src={t.image} alt={t.title} className="w-16 h-12 object-contain mb-4" />
+                    <img src={t.image} alt={t.title} className="w-full h-48 object-contain mb-4" />
                   )}
                   <h3 className="font-semibold text-white mb-3">{t.title}</h3>
                   <p className="text-stone-400 text-sm leading-relaxed">{t.body}</p>
