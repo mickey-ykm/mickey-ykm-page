@@ -156,7 +156,7 @@ export default function SuperAccPage() {
                 <img
                   src="/mickey-ykm-page/images/parsing-visual.png"
                   alt="Deep learning document parsing"
-                  className="w-20 h-14 object-contain mb-5"
+                  className="w-full h-48 object-contain mb-5"
                 />
                 <h3 className="text-xl font-semibold text-white mb-4">Deep Learning Meets Finance Domain Logic</h3>
                 <p className="text-stone-400 text-sm leading-relaxed">
