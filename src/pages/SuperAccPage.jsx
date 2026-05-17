@@ -87,7 +87,7 @@ export default function SuperAccPage() {
             <img
               src="/mickey-ykm-page/images/superacc_graphic.png"
               alt=""
-              className="absolute right-0 w-auto object-cover object-left opacity-20"
+              className="absolute right-0 w-auto object-cover object-left opacity-80"
               style={{ right: '5%', top: '5%', bottom: '5%', height: '90%' }}
             />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-900 via-stone-900/85 to-stone-900/20" />
