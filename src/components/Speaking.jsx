@@ -7,7 +7,7 @@ export default function Speaking() {
       link: "https://aws.amazon.com/blogs/machine-learning/how-apoidea-group-enhances-visual-information-extraction-from-banking-documents-with-multimodal-models-using-llama-factory-on-amazon-sagemaker-hyperpod/"
     },
     {
-      type: "Public Speaking",
+      type: "Other Exposures",
       org: "SME Finance Forum",
       title: "Bank-Fintech Partnerships to Bridge the SME Finance Gap",
       link: "https://www.smefinanceforum.org/post/webinar-bank-fintech-partnerships-to-bridge-the-sme-finance-gap"
@@ -15,10 +15,10 @@ export default function Speaking() {
   ]
 
   return (
-    <section id="speaking" className="px-6 py-24 bg-[#f9f7f4]">
+    <section id="other-exposures" className="px-6 py-24 bg-[#f9f7f4]">
       <div className="max-w-5xl mx-auto">
         <p className="text-indigo-500 text-xs font-medium tracking-widest uppercase mb-3">Thought Leadership</p>
-        <h2 className="font-display text-4xl md:text-5xl text-stone-900 mb-16">Speaking & Research</h2>
+        <h2 className="font-display text-4xl md:text-5xl text-stone-900 mb-16">Other Exposures</h2>
         <div className="space-y-6">
           {items.map((item, idx) => (
             <a

@@ -30,7 +30,7 @@ export default function Clients() {
               <img
                 src={client.logo}
                 alt={client.name}
-                className="max-h-10 max-w-full object-contain grayscale"
+                className="max-h-10 max-w-full object-contain"
               />
             </div>
           ))}

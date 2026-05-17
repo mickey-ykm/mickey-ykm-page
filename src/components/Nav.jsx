@@ -19,9 +19,9 @@ export default function Nav() {
   const transparent = isHome && !scrolled && !menuOpen
 
   const links = [
-    { label: "Experience", to: "/experience" },
     { label: "Work", to: "/work" },
-    { label: "Speaking", to: "/speaking" },
+    { label: "Experience", to: "/experience" },
+    { label: "Other Exposures", to: "/speaking" },
   ]
 
   return (

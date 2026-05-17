@@ -18,11 +18,6 @@ export default function Footer() {
                     rkmyip@gmail.com
                   </a>
                 </li>
-                <li>
-                  <a href="tel:+85293859858" className="hover:text-white transition">
-                    +852 9385 9858
-                  </a>
-                </li>
               </ul>
             </div>
             <div>
