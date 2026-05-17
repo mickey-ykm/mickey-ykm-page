@@ -174,11 +174,11 @@ export default function SuperAccPage() {
             <h2 className="font-display text-3xl md:text-4xl text-stone-900 mb-16">Three Core Modules</h2>
             <div className="space-y-16">
               {modules.map((mod) => (
-                <div key={mod.number} className="grid md:grid-cols-[80px_1fr] gap-6">
-                  <div className="flex flex-col items-center gap-2 pt-1">
-                    <img src={mod.icon} alt={mod.title} className="w-12 h-12 object-contain" />
-                    <div className="font-display text-4xl text-stone-200 leading-none">{mod.number}</div>
+                <div key={mod.number} className="border border-stone-200 rounded-2xl p-6 bg-white">
+                  <div className="flex items-center gap-4 mb-4">
+                    <img src={mod.icon} alt={mod.title} className="w-full h-48 object-contain" />
                   </div>
+                  <div className="font-display text-3xl text-stone-200 mb-2">{mod.number}</div>
                   <div>
                     <h3 className="text-xl font-semibold text-stone-900 mb-1">{mod.title}</h3>
                     <p className="text-xs text-indigo-500 font-medium mb-4">Client: {mod.client}</p>
