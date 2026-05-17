@@ -6,7 +6,7 @@ export default function Footer() {
           <div>
             <p className="font-display text-3xl text-white mb-3">Mickey Yip</p>
             <p className="text-stone-400 text-sm max-w-xs">
-              AI & Product Leader based in Hong Kong. Open to advisory, consulting, and speaking engagements.
+              10 years+ AI & Product Leader based in Hong Kong, specializing in fintech SaaS and enterprise AI solutions.
             </p>
           </div>
           <div className="flex gap-16">

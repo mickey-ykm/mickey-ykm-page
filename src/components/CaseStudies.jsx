@@ -18,49 +18,49 @@ const tagColors = {
 export default function CaseStudies() {
   const studies = [
     {
+      title: "Classical Chinese Learner App",
+      company: "Educational Project",
+      year: "2026",
+      description: "Developed LLM batch assessment tool using OpenRouter. Built React Native mobile app with Railway and Supabase infrastructure.",
+      tags: ["EdTech", "Claude Code", "Openrouter"],
+      externalLink: "https://github.com/mickey-ykm/classical-chinese-learner-app"
+    },
+    {
       title: "SuperAcc — Financial Document Intelligence",
       company: "DBS Bank · Standard Chartered · Major Banks",
-      year: "2021–2023",
+      year: "2019–2025",
       description: "AI SaaS platform automating financial statement analysis, bank statement credit analysis, and corporate KYB for tier-1 banks. Reduced processing time by up to 93%, handling 30,000+ cases annually.",
       tags: ["Fintech", "AI/ML", "SaaS", "Compliance"],
       internalLink: "/work/superacc"
     },
     {
-      title: "Newspress AI Daily Newsletter",
-      company: "Internal Project",
-      year: "2024",
-      description: "Launched LLM personalized newsletter service with 2-week MVP go-to-market. Utilized agentic solutions with Langchain and multilingual models.",
-      tags: ["GenAI", "LLM", "Product"]
+      title: "Arbor News App",
+      company: "GenAI Media Project",
+      year: "2023-2025",
+      description: "Developed LLM news summary app reaching 10,000+ MAU. Managed partnerships with major news media companies and implemented LLM media use cases of handling halluciation and reccommendation system.",
+      tags: ["GenAI", "LLM Orchestration", "Media Platform"]
     },
     {
-      title: "Arbor News App",
-      company: "Internal Project",
-      year: "2023",
-      description: "Developed LLM news summary app reaching 10,000+ MAU. Managed partnerships with major news outlets and implemented AI-driven delivery models.",
-      tags: ["GenAI", "Mobile", "Product"]
+      title: "Newspress AI Daily Newsletter",
+      company: "GenAI Media Project",
+      year: "2024",
+      description: "Launched LLM personalized newsletter service with 2-week MVP go-to-market. Utilized agentic solutions with Langchain and multilingual models.",
+      tags: ["GenAI", "Thoughtchain", "Agentic LLM"]
+    },
+    {
+      title: "Altive Asset Management Platform",
+      company: "Investment Platform",
+      year: "2019-2024",
+      description: "Developed investment platform managing over $1 billion in assets. Designed KYC system and fund management features.",
+      tags: ["Fintech", "Altnertive Investment", "eKYC"]
     },
     {
       title: "Taikoo Place 3-in-1 Digital Platform",
       company: "Swire Group",
       year: "2018",
       description: "Led a digital transformation project unifying a website, mobile app, and in-venue kiosk under a single Sitecore CMS. Designed data synchronisation and content structure to ensure consistency across all three touchpoints, reducing content management overhead and improving operational reliability.",
-      tags: ["Platform", "Mobile", "Product"]
+      tags: ["IoT", "Mobile App", "Cloudformation"]
     },
-    {
-      title: "Altive Asset Management Platform",
-      company: "Investment Platform",
-      year: "2021",
-      description: "Developed investment platform managing over $1 billion in assets. Designed KYC system and fund management features.",
-      tags: ["Fintech", "Platform", "Product"]
-    },
-    {
-      title: "Classical Chinese Learner App",
-      company: "Personal Project",
-      year: "2024",
-      description: "Developed LLM batch assessment tool using OpenRouter. Built React Native mobile app with Railway and Supabase infrastructure.",
-      tags: ["EdTech", "Mobile", "AI"],
-      externalLink: "https://github.com/mickey-ykm/classical-chinese-learner-app"
-    }
   ]
 
   return (

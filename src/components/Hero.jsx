@@ -14,15 +14,15 @@ export default function Hero() {
           Mickey Yip
         </h1>
         <p className="text-stone-300 text-base leading-relaxed mb-3">
-          Mickey Yip is an AI and Product Management leader with over a decade of experience spanning digital transformation, fintech SaaS, and enterprise AI solutions. He has built a career at the intersection of technology strategy and business execution — growing AI startups from zero to market, leading cross-functional teams of up to 50 members, and delivering over $10M in annual revenue growth.
+          Mickey Yip is an AI Product Management leader with over a decade of experience spanning digital transformation, fintech SaaS, and enterprise AI solutions. He has built a career at the intersection of technology strategy and business execution — growing AI startups from zero to market, leading cross-functional teams of up to 50 members, and delivering over $10M in annual revenue growth.
         </p>
         <p className="text-stone-400 text-base leading-relaxed mb-10">
-          His expertise covers the full product lifecycle: from ideation and proof-of-concept through to bank-grade deployment and cloud migration. He has collaborated with leading financial institutions including Standard Chartered, DBS, and Bank of China, and holds certifications in AWS AI and PMI Agile. Today, Mickey advises organizations on AI strategy, leads corporate AI training, and develops end-to-end AI solutions using the latest tools and methodologies.
+          His expertise covers the full product lifecycle: from ideation and proof-of-concept through to bank-grade deployment and cloud migration. He has collaborated with leading financial institutions including Standard Chartered, DBS, and Bank of China.
         </p>
 
         <div className="flex flex-wrap gap-4 mb-16">
-          <Link to="/experience" className="px-6 py-3 bg-indigo-500 text-white rounded-full hover:bg-indigo-400 transition font-medium text-sm">
-            View Experience
+          <Link to="/work" className="px-6 py-3 bg-indigo-500 text-white rounded-full hover:bg-indigo-400 transition font-medium text-sm">
+            View Key Projects
           </Link>
           <a href="https://linkedin.com/in/mickey-yip-ai-product-lead" target="_blank" rel="noopener noreferrer" className="px-6 py-3 border border-white/20 text-white/80 rounded-full hover:border-white/50 hover:text-white transition text-sm">
             LinkedIn ↗

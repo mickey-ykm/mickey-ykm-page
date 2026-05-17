@@ -7,8 +7,8 @@ const modules = [
     title: "Financial Statement Analysis",
     client: "Asia Pacific leading commercial banking group",
     icon: "/mickey-ykm-page/images/financial-statement-analysis-icon.png",
-    problem: "A bank's financial spreading team of 50+ headcounts took up to 2 days to analyse a single 200+ page listed-company financial statement. The manual process was slow to scale and costly to maintain.",
-    solution: "SuperAcc deploys a composition of 20+ AI models to dissect, identify, and extract key information from complex financial statements — including balance sheets, income statements, cash flow statements, and disclosure notes. The system calculates 400+ financial spreading items based on IFRS standards, handles dynamic table structures, extracts off-balance sheet items for risk identification, and supports financial ratio analysis, vertical/horizontal analysis, and cash flow forecasting.",
+    problem: "",
+    solution: "SuperAcc deploys a composition of 20+ AI models to dissect, identify, and extract key information from complex financial statements — covering balance sheets, income statements, cash flow statements, and disclosure notes. The system calculates 400+ financial spreading items based on IFRS standards, handles dynamic table structures, extracts off-balance sheet items for risk identification, and supports financial ratio analysis, vertical/horizontal analysis, and cash flow forecasting — reducing a 2-day manual process to under 30 minutes.",
     tags: ["Financial Spreading", "IFRS", "20+ AI Models", "400+ Data Points"]
   },
   {
@@ -16,8 +16,8 @@ const modules = [
     title: "Credit Analysis (Bank Statements)",
     client: "Leading MNC banking group",
     icon: "/mickey-ykm-page/images/bank-statement-analysis-icon.png",
-    problem: "Processing 6 months of bank statements for a single corporate client took around 1 day. Growing demand outpaced available human resources, creating a bottleneck in credit decisioning.",
-    solution: "SuperAcc uses a Layout Language Model (LayoutLM) to capture bank account information and detect suspicious anomalies including font token sizing irregularities and transaction balance discrepancies. 100+ business logic rules categorise all transactions — identifying internal transfers, sales turnover, and unauthorised overdrafts — and consolidate fraud alerts automatically.",
+    problem: "",
+    solution: "SuperAcc applies a Layout Language Model (LayoutLM) to capture bank account information and detect suspicious anomalies — including font token sizing irregularities and transaction balance discrepancies. Over 100 business logic rules categorise all transactions, identifying internal transfers, sales turnover, and unauthorised overdrafts, and consolidate fraud alerts automatically — cutting a full day of manual review to 1–2 hours.",
     tags: ["LayoutLM", "Fraud Detection", "100+ Business Logic Rules", "Transaction Categorisation"]
   },
   {
@@ -25,8 +25,8 @@ const modules = [
     title: "Know Your Business (KYB)",
     client: "Singaporean bank",
     icon: "/mickey-ykm-page/images/ekyc-solution-icon.png",
-    problem: "Corporate KYB required reviewing 12+ company documents and took around 2 days per case. Tracing Ultimate Beneficial Ownership (UBO) across multi-layer corporate structures was particularly complex and error-prone.",
-    solution: "SuperAcc automates the purchase and parsing of the latest company registry documents, covering Limited Companies, Sole Proprietorships, Open-ended Fund Companies, and Limited Partnership Funds. The system extracts shareholder and director information, constructs organisational charts, calculates multi-layer UBO, and generates a consolidated KYB compliance report — all configurable to different regulatory requirements.",
+    problem: "",
+    solution: "SuperAcc automates the purchase and parsing of the latest company registry documents — covering Limited Companies, Sole Proprietorships, Open-ended Fund Companies, and Limited Partnership Funds. The system extracts shareholder and director information, constructs organisational charts, calculates multi-layer UBO, and generates a consolidated KYB compliance report configurable to different regulatory requirements — compressing a 2-day manual review to under 2 hours.",
     tags: ["UBO Tracing", "Company Registry", "RPA + AI", "Compliance Reporting"]
   },
 ]
@@ -181,16 +181,7 @@ export default function SuperAccPage() {
                   <div>
                     <h3 className="text-xl font-semibold text-stone-900 mb-1">{mod.title}</h3>
                     <p className="text-xs text-indigo-500 font-medium mb-4">Client: {mod.client}</p>
-                    <div className="space-y-4 mb-5">
-                      <div>
-                        <p className="text-xs font-semibold text-stone-400 uppercase tracking-wide mb-1">The Problem</p>
-                        <p className="text-stone-600 text-sm leading-relaxed">{mod.problem}</p>
-                      </div>
-                      <div>
-                        <p className="text-xs font-semibold text-stone-400 uppercase tracking-wide mb-1">The Solution</p>
-                        <p className="text-stone-600 text-sm leading-relaxed">{mod.solution}</p>
-                      </div>
-                    </div>
+                    <p className="text-stone-600 text-sm leading-relaxed mb-5">{mod.solution}</p>
                     <div className="flex flex-wrap gap-2">
                       {mod.tags.map((tag, i) => (
                         <span key={i} className="text-xs bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full font-medium">{tag}</span>
@@ -248,7 +239,7 @@ export default function SuperAccPage() {
 
             {/* Benefits grid */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              {["Optimised time-to-value", "Minimised operational overhead", "Deployable to private cloud", "No data transfer to third parties", "Customisable workflow", "Scalable cloud infrastructure", "Integratable with banking systems", "In-house pre-trained models", "Preferable model adjustments"].map((b, i) => (
+              {["Optimised time-to-value", "Deployable to private cloud", "No data transfer to third parties", "Customisable workflow", "Integratable with banking systems", "Responsible AI"].map((b, i) => (
                 <div key={i} className="flex items-start gap-3 bg-white border border-stone-200 rounded-xl p-4">
                   <span className="text-indigo-400 mt-0.5 shrink-0">✓</span>
                   <p className="text-stone-600 text-sm">{b}</p>
